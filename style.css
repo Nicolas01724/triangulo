@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(243, 252, 253);
+    margin: 0px;
+}
+
+#total {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;           
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    width: 5vw;
+    cursor: pointer;
+    margin: 10px auto;
+    background-color: white;
+    border-width: 1px;
+}
+
+#total {
+    animation: cor-de-fundo 30s ease infinite;
+}
+
+@keyframes cor-de-fundo {
+    0% {
+        background-color: blue;
+    }
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    75% {
+        background-color: chartreuse;
+    }
+}
